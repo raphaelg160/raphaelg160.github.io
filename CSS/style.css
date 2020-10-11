@@ -2,6 +2,7 @@ body {
 	text-align: center;
 }
 header,
+
 footer {
 	background-color: #000;
 	color: #fff;
@@ -18,7 +19,8 @@ h2 {
 	margin: 0;
 }
 
-h2, #currentdate {
+h2, 
+#currentdate {
 	color: yellow;
 }
 
@@ -43,3 +45,7 @@ label {
 	margin: 5px;
 }
 
+input, 
+button {
+	padding: .5rem;
+}
