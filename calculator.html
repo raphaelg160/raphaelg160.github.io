@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 160 Calculator - Raphael de Oliveira</title>
+    <link rel="stylesheet" href="CSS/stylecalculator.css"> <!-- external CSS reference -->
+</head>
+
+<body>
+    <header>
+        <h1>Week 6: Calculator</h1>
+        <h2>Raphael de Oliveira</h2>
+    </header>
+    <main>
+        <h3>Basic Fun Arithmetic</h3>
+        <h2>Instructions</h2>
+        <ol>
+            <li>Insert the number in the first box.</li>
+            <li>Click on the "Options" box to choose the operation.</li>
+            <li>Insert the number in the second box</li>
+            <li>Click on Check to get your answer.</li>
+        </ol>
+        <label><input type="text" id="number1"></label>
+        <label><select name="options" id="options">
+                <option value="">Options</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select></label>
+        <label><input type="text" id="number2"></label>
+        =
+        <label><input type="text" id="answer"></label>
+        <label><button type="button" onclick="check()">Check</button></label>
+        <hr>
+        <p><span id="output"></span></p>
+    </main>
+    <footer>
+        &copy;2020 &bull; Raphael de Oliveira &bull; BYU-Idaho &bull; CIT 160
+    </footer>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
