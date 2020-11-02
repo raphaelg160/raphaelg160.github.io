@@ -1,4 +1,4 @@
-function Alarm() {
+function myDate() {
     // Input 
     // Insert number information to determine if can sleep in or not
     let now = new Date();
